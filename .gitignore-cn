@@ -1,0 +1,211 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# 操作系统特定文件
+.DS_Store
+.localized
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE 特定文件
+.idea/ # IntelliJ IDEA
+.vscode/ # VS Code
+*.iml # IntelliJ IDEA modules
+*.ipr # IntelliJ IDEA project files
+*.iws # IntelliJ IDEA workspace files
+.project # Eclipse
+.classpath # Eclipse
+.settings/ # Eclipse
+*.swp # Vim swap files
+*.swo # Vim swap files
+*~ # Emacs backup files
+*.sublime-project # Sublime Text
+*.sublime-workspace # Sublime Text
+nbproject/ # NetBeans
+
+# 构建工具/依赖管理
+/build/
+/dist/
+/target/
+/out/
+*.log
+*.err
+*.tmp
+tmp/
+temp/
+node_modules/ # Node.js
+vendor/ # PHP Composer, Ruby Bundler (depending on project)
+.gradle/ # Gradle
+gradlew
+gradlew.bat
+.sbt/ # Scala SBT
+.mvn/ # Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.backup
+pom.xml.next
+release.version
+.project.history
+rebel.xml
+target/
+!/src/main/resources/archetype-resources
+
+# 语言特定文件
+
+## Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*.log
+.metadata
+.classpath
+.project
+.settings/
+bin/
+tmp/
+# Maven
+target/
+pom.xml.tag
+pom.xml.next
+release.version
+rebel.xml
+# Gradle
+.gradle/
+build/
+
+## Python
+*.pyc
+__pycache__/
+.pytest_cache/
+venv/
+env/
+.env
+*.egg-info/
+.coverage
+.mypy_cache/
+.ipynb_checkpoints/ # Jupyter Notebook
+instance/ # Flask specific
+.webassets-cache
+
+## JavaScript/TypeScript/Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+# TypeScript
+*.tsbuildinfo
+# Next.js
+.next/
+out/
+# Nuxt.js
+.nuxt/
+dist/
+# Vue.js
+dist/
+# React Native
+ios/build/
+android/app/build/
+
+## C/C++
+*.o
+*.a
+*.so
+*.lo
+*.la
+*.dll
+*.d
+*.obj
+*.exe
+*.out
+*.app
+*.lib
+*.exp
+*.pch
+*.pdb
+*.ilk
+*.suo
+*.user
+*.ncb
+*.aps
+*.opt
+*.stackdump
+_build/
+
+## Ruby
+.bundle/
+/vendor/bundle/
+.rvmrc
+.rbenv-version
+.zeus.sock
+capybara-*.html
+.sass-cache/
+.byebug_history
+.DS_Store
+log/*.log
+tmp/
+public/assets
+.project
+
+## PHP
+vendor/
+composer.lock
+/storage/*.log
+/bootstrap/cache/*.php
+.env
+.phpunit.result.cache
+
+## Go
+*.exe
+*.test
+*.prof
+# Mac
+.DS_Store
+# Linux
+*.o
+*.a
+# Windows
+*.dll
+*.lib
+# IDE
+.idea/
+.vscode/
+# Build artifacts
+/bin/
+/pkg/
+
+## Rust
+/target/
+
+## Swift/Objective-C (iOS/macOS)
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+*.app
+*.dSYM
+xcuserdata/
+
+# 日志与临时文件
+*.log
+*.temp
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# 敏感信息 (示例，请根据实际情况添加)
+.env
+config/database.yml # 示例，如果包含敏感信息
+secret.txt
+*.key
+
+# 其他可能需要忽略的文件
+reports/
+coverage/
+dumps/
+uploads/
